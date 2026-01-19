@@ -1,1 +1,31 @@
 # Lau-portfolio
+
+
+# Chanel Lau - Portfolio
+
+## Education
+** University of Hawai'i at Manoa
+- Major: Accounting & Management Information Systems
+- Class of: Spring 2027
+
+## About Me
+I am a third-year student pursuing a double major in Accounting and Management Information Systems with an interest in IT Audit, and Project Management. I previously worked as a Student Office Assistant for the Department of Sociology at the University of Hawaii at Manoa, where I was able to develop skills within an office environment. I am currently interning at KMH LLP for the Spring 2026 semester as a student audit intern.
+
+## Career Aspirations
+**Target Roles:**
+- CPA
+- Systems Analyst
+- CISA
+- IT Project Manager
+
+**Interests:**
+- Audit
+- IT Audit
+- IT Systems
+
+**Professional Goals:**
+I aim to engage in more MIS-related professional events to strengthen my technical and professional development, secure an additional audit internship with a different firm, and ideally receive a full-time offer before graduation.  
+
+## Connect
+- **LinkedIn:** linkedin.com/in/chanellau
+- **Email:** chanel20@hawaii.edu
