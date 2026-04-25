@@ -74,8 +74,6 @@ All inputs are sourced from Tesla's Form 10-K (SEC EDGAR) unless otherwise noted
 | Cost of capital | Estimated WACC | `cost_capital` | 10.0% |
 | Tax rate | Effective or statutory | `tax_rate` | 21.0% |
 
-> <span style="color:#024731;">**Tip:**</span> Keep labels short and standardized — these names become Excel named ranges *and* AI prompt parameters in Stage 4.
-
 ---
 
 ## 3. Assumptions & Constraints
@@ -162,8 +160,6 @@ Described in named-range pseudocode so the logic is portable to Excel, Python, o
   Du Pont ROA should closely approximate the directly calculated ROA, subject to rounding differences.  
   Du Pont ROE should approximate direct ROE, although minor differences may occur when using average versus year-end balances.
 
-> <span style="color:#024731;">**Reasonableness checks:**</span> Du Pont ROA should tie to direct ROA within rounding. Du Pont ROE may diverge from direct ROE when leverage uses current-year equity while ROE uses start-of-year equity — flag any divergence greater than ~3 percentage points for review.
-
 ---
 
 ## 5. Outputs
@@ -180,8 +176,6 @@ Described in named-range pseudocode so the logic is portable to Excel, Python, o
 | Executive Summary (Stage 4) | Written management interpretation of key findings | Memo / Markdown | Final decision-support deliverable |
 
 ### 5.1 Computed Output Values
-
-The computed ratio values below serve as a regression checkpoint for future versions.
 
 | Category | Ratio | Value | Notes |
 |----------|-------|------:|-------|
@@ -218,8 +212,6 @@ The computed ratio values below serve as a regression checkpoint for future vers
 ---
 
 ## 6. Model Review — What Worked & What to Improve
-
-Reflect candidly on the Stage 2 model. This section is what makes a *post-build* spec more valuable than a pre-build plan.
 
 ### 6.1 What Worked
 
@@ -272,8 +264,6 @@ Reflect candidly on the Stage 2 model. This section is what makes a *post-build*
 ---
 
 ## 8. Writing a Strong Specification
-
-> This technical specification is designed to function as a professional handoff document that can be used by another analyst, manager, or AI assistant to reproduce and extend the Tesla ratio model.
 
 - **Professional communication:** The model logic, assumptions, and outputs are presented in a clear and structured format suitable for management review.
 - **Forward-looking design:** The specification is intentionally structured to support the Stage 4 AI prompt and final executive analysis.
