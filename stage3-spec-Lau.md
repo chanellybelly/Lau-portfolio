@@ -1,22 +1,3 @@
-<div style="border-top: 6px solid #024731; border-bottom: 1px solid #B2B2B2; padding: 12px 0; margin-bottom: 24px; font-family: 'Open Sans', Helvetica, Arial, sans-serif;">
-  <div style="color: #024731; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; font-size: 0.85rem;">University of Hawaiʻi at Mānoa · Shidler College of Business</div>
-  <div style="color: #000000; font-weight: 700; font-size: 1.25rem; margin-top: 4px;">BUS-314 International Corporate Finance</div>
-  <div style="color: #525252; font-weight: 400; font-size: 0.95rem;">Accounting &amp; Performance Ratios Project — Technical Specification</div>
-</div>
-
-<!--
-BRAND FORMATTING — applied per docs/_branding/design.json
-  Primary green ............ #024731  (headings, accents, banner)
-  Black .................... #000000  (body text)
-  Silver ................... #B2B2B2  (subtle borders, rules)
-  Neutral-600 .............. #525252  (secondary text)
-  Heading font ............. Open Sans Bold (web) / Avenir Bold (print)
-  Body font ................ Open Sans Regular (web) / Avenir Book (print)
-  Body minimum size ........ 10pt; 11-12pt preferred for printed copies
-  Alignment ................ Flush left, ragged right
-  Accessibility ............ ADA-compliant contrast; no red body type
--->
-
 # Tesla, Inc. (TSLA) — Accounting & Performance Ratio Model · Technical Specification
 
 > <span style="color:#024731; font-weight:700;">Post-build specification</span> documenting the Stage 2 Excel model, validating it against the data, and articulating the refinements required for production use. Drives the Stage 4 AI prompt and final analysis.
@@ -30,7 +11,7 @@ BRAND FORMATTING — applied per docs/_branding/design.json
 | **Version** | 1.0 |
 | **Role** | Financial Analyst / FP&A Analyst |
 | **Audience** | CFO / Director of FP&A |
-| **Companion Workbook** | `Lau-Chanel-Stage2-model.xlsx` (or student build) |
+| **Companion Workbook** | `Lau-Chanel-Stage2-model.xlsx` |
 
 ---
 
@@ -42,9 +23,9 @@ Tesla, Inc. is a publicly traded electric vehicle and clean energy company opera
 
 ## 2. Inputs (Known Variables)
 
-All inputs are sourced from the company's 10-K (SEC EDGAR) unless otherwise noted. Figures are in $millions except share price (USD) and shares outstanding (millions). Market and analyst inputs are the only cells an analyst should adjust for scenario work.
+All inputs are sourced from Tesla's Form 10-K (SEC EDGAR) unless otherwise noted. Figures are reported in $ millions except share price (USD) and shares outstanding (millions). Market and analyst inputs are the only values an analyst should adjust for scenario analysis.
 
-> <span style="color:#024731;">**Naming-convention decoder.**</span> Raw inputs use the year-suffixed form `BAL_[item]_[yr]`. The calculation flow in §4 refers to those same cells through two aliases: `startYear_[item]` ≡ `BAL_[item]_[prior]` and `currentYear_[item]` ≡ `BAL_[item]_[curr]`. Income-statement and cash-flow items (`INC_*`, `CASH_*`) have no year suffix — the model is single-year for those statements. Define both aliases as Excel named ranges pointing at the same cells so §2 and §4 stay readable.
+> <span style="color:#024731;"><b>Naming-convention decoder.</b></span> Balance-sheet inputs generally use the year-suffixed format `BAL_[item]_[yr]`, where applicable. The calculation flow in Section 4 references these balances through two aliases: `startYear_[item]` for FY2024 values and `currentYear_[item]` for FY2025 values. Income-statement and cash-flow items (`INC_*`, `CASH_*`) use single-year naming because the model focuses on FY2025 operating results. This structure improves formula readability and supports reproducibility.
 
 ### 2.1 Balance Sheet Items (Current and Prior Year)
 
@@ -300,6 +281,7 @@ Reflect candidly on the Stage 2 model. This section is what makes a *post-build*
 - **Reproducibility:** A separate analyst should be able to rebuild the workbook using the documented inputs, assumptions, and calculation flow.
 - **Reflective improvement mindset:** The Model Review section identifies both strengths and areas for improvement from the Stage 2 build.
 - **Executive relevance:** Outputs focus on profitability, liquidity, leverage, efficiency, and shareholder value metrics that are useful for decision-making.
+  
 ---
 
 ## 9. How This Sets Up Stage 4
