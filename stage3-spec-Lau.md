@@ -32,36 +32,6 @@ BRAND FORMATTING — applied per docs/_branding/design.json
 | **Audience** | CFO / Director of FP&A |
 | **Companion Workbook** | `Lau-Chanel-Stage2-model.xlsx` (or student build) |
 
-## Problem Statement
-
-## Inputs (Known Variables)
-
-## Named Range Conventions
-
-## Assumptions & Constraints
-
-## Calculation Flow
-
-### Derived Inputs
-
-### Performance Ratios
-
-### Profitability Ratios
-
-### Efficiency Ratios
-
-### Leverage Ratios
-
-### Liquidity Ratios
-
-### Du Pont Decomposition
-
-## Outputs
-
-## Model Review — What Worked & What to Improve
-
-## Limitations & Next Steps
-
 ---
 
 ## 1. Problem Statement
