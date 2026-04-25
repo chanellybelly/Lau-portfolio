@@ -1,6 +1,6 @@
 # Tesla, Inc. (TSLA) — Accounting & Performance Ratio Model · Technical Specification
 
-> <span style="color:#024731; font-weight:700;">Post-build specification</span> documenting the Stage 2 Excel model, validating it against the data, and articulating the refinements required for production use. Drives the Stage 4 AI prompt and final analysis.
+> <span style="color:#024731; font-weight:700;">Post-build specification for the completed Tesla ratio model. It summarizes inputs, formulas, outputs, and recommended improvements, while supporting the Stage 4 AI prompt and final analysis.
 
 | Field | Value |
 |------|------|
