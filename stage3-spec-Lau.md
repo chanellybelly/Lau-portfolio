@@ -83,13 +83,13 @@ All inputs are sourced from the company's 10-K (SEC EDGAR) unless otherwise note
 | Cash & marketable securities | Liquid assets | `BAL_cash_marketable_securities_[yr]` | Both | 36,563 | 29,094 |
 | Receivables | Accounts receivable | `BAL_receivables_[yr]` | Both | 4,010 | 3,508 |
 | Inventories | Inventory balance | `BAL_inventories_[yr]` | Both | 14,091 | 13,626 |
-| Total current assets | Sum of current assets | `BAL_assets_current_[yr]` | Current | 58,369 | 49,616 |
-| Net tangible fixed assets | PP&E less accumulated depreciation | `BAL_fixed_assets_net_[yr]` | Current | 51,707 | 45,987 |
+| Total current assets | Sum of current assets | `BAL_assets_current_[yr]` | Current | 58,369 |  |
+| Net tangible fixed assets | PP&E less accumulated depreciation | `BAL_fixed_assets_net_[yr]` | Current | 51,707 |  |
 | Total assets | All assets | `BAL_assets_total_[yr]` | Both | 122,070 |  106,618|
-| Total current liabilities | Short-term obligations | `BAL_liabilities_current_[yr]` | Current | 28,748 | 26,213 |
+| Total current liabilities | Short-term obligations | `BAL_liabilities_current_[yr]` | Current | 28,748 |  |
 | Accounts payable | Supplier balances (needed for DPO / cash-conversion-cycle extension — §6.2) | `BAL_accounts_payable_[yr]` | Both |  15,255| 13,720 |
 | Long-term debt | Non-current borrowings | `BAL_debt_long_term_[yr]` | Both | 5,157 | 2,526 |
-| Total liabilities | All liabilities | `BAL_liabilities_total_[yr]` | Current | 43,009 | 43,256 |
+| Total liabilities | All liabilities | `BAL_liabilities_total_[yr]` | Current | 43,009 |  |
 | Shareholders' equity | Book value of equity | `BAL_equity_shareholders_[yr]` | Both | 79,061 | 63,362 |
 
 ### 2.2 Income Statement Items (Current Year)
