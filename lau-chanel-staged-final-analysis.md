@@ -7,7 +7,7 @@
 
 This analysis evaluates Tesla, Inc., a leading electric vehicle and clean energy company, using fiscal year 2025 financial data. The primary data sources include Tesla’s 2025 Form 10-K, 2024 comparative financial statements, and market data from Yahoo Finance.
 
-The analysis incorporates key assumptions, including an estimated tax rate of 27% and a cost of capital of 9.0%. These assumptions are used to evaluate value creation metrics such as Economic Value Added (EVA).
+The analysis incorporates key assumptions, including an estimated tax rate of 27% and a cost of capital of 9%. These assumptions are used to evaluate value creation metrics such as Economic Value Added (EVA).
 
 
 
@@ -93,11 +93,15 @@ Use the following naming system:
 BAL_cash_2025 = 16513
 BAL_cash_2024 = 16139
 BAL_accounts_receivable_2025 = 4576
+BAL_accounts_receivable_2024 = 4418
 BAL_inventory_2025 = 12392
+BAL_inventory_2024 = 12017
 BAL_total_assets_2025 = 137806
 BAL_total_assets_2024 = 122070
 BAL_total_liabilities_2025 = 54941
+BAL_total_liabilities_2024 = 49390
 BAL_total_equity_2025 = 82137
+BAL_total_equity_2024 = 72913
 
 # INCOME STATEMENT DATA
 INC_sales = 94827
@@ -165,4 +169,5 @@ Tesla’s leverage position is conservative, with manageable debt levels and str
 
 From a CFO perspective, the key priorities should be improving profitability margins, strengthening liquidity beyond inventory reliance, and continuing to invest in projects that generate returns above the company’s cost of capital to sustain long-term value creation.
 
+Overall, Tesla remains well-positioned for long-term growth but must improve profitability and liquidity efficiency to fully maximize shareholder value.
 
